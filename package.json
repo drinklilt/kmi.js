@@ -1,0 +1,33 @@
+{
+  "name": "kmi.js",
+  "version": "0.1.0",
+  "description": " Javascript library for the Kick Messaing Interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drinklilt/kmi.js.git"
+  },
+  "keywords": [
+    "kmi",
+    "kmijs",
+    "kick",
+    "chat",
+    "message",
+    "stream",
+    "bot"
+  ],
+  "author": "drinklilt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drinklilt/kmi.js/issues"
+  },
+  "homepage": "https://github.com/drinklilt/kmi.js#readme",
+  "dependencies": {
+    "events": "^3.3.0",
+    "loglevel": "^1.8.1",
+    "ws": "^8.12.1"
+  }
+}
