@@ -10,9 +10,7 @@ const client = new kmi.Client({
 
 client.connect().catch(console.error);
 client.on("debug", (e) => console.log(e));
-client.on("chat", (chatroom, user, message, self) => {
-	console.log(chatroom);
-	console.log(user);
-	console.log(message);
-	console.log(self);
-});
+//client.on("raw_message", (e) => console.log(e));
+// client.on("chat", (chatroom, user, message, self) =>
+// 	console.log(`${user.username} said ${message.message} in ${chatroom}`)
+// );
